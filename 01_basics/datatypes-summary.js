@@ -39,3 +39,12 @@ let myFunction = function(){
 }
 
 console.log(typeof heros);
+
+
+
+//stack(primitive),heap(non-primitive)
+
+
+//stack gives the copy of an data/variable//change occur on copy data
+//heap gives the reference of an data/variable //change occur on actual memory
+
