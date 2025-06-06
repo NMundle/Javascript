@@ -1,0 +1,30 @@
+
+//Object Literals
+
+const mysym = Symbol("key1")
+const JsUser = {
+    name: "max",
+    age: 18,
+    [mysym]:"mykey1",
+    location:"India",
+    email:"max@google.com",
+    isLoggedIn: false,
+    lastLoginDays:["monday","saturday"]
+
+
+
+}
+console.log(JsUser.email);
+console.log(JsUser.age);
+console.log(JsUser[mysym]);
+
+
+JsUser.greeting = function(){
+    console.log(`hello Js User, ${this.name}`);
+
+    
+}
+console.log(JsUser.greeting());
+
+
+
