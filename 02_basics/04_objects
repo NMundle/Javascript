@@ -45,11 +45,11 @@ const {courseInstructor:Instructor} = course
  
  //JSON
 
- {
-    "name":"hitesh",
-    "courseName":"js in hindi",
-    "courseFee": "free",
- }
+//  {
+//     "name":"hitesh",
+//     "courseName":"js in hindi",
+//     "courseFee": "free",
+//  }
  //API found in this type of JSON format
 
  [
